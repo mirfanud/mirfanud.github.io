@@ -1,189 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Page</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M. Irfan Uddin</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 20px;
+      scroll-behavior: smooth;
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+      color: #222;
       line-height: 1.6;
     }
-    h1 {
-      border-bottom: 2px solid #333;
-      padding-bottom: 10px;
+
+    header {
+      background: #1f3b5c;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
     }
-    nav ul {
-      list-style-type: none;
-      padding: 0;
+
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      font-weight: 600;
     }
-    nav ul li {
+
+    header p {
       margin: 5px 0;
+      opacity: 0.9;
+      font-size: 1.1em;
     }
-    nav ul li a {
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: white;
+      padding: 25px 30px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+      margin-left: 230px;
+    }
+
+    h2 {
+      color: #1f3b5c;
+      border-left: 4px solid #1f3b5c;
+      padding-left: 10px;
+      margin-top: 40px;
+      font-size: 1.5em;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+
+    table, th, td {
+      border: 1px solid #ccc;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      font-size: 0.95em;
+    }
+
+    th {
+      background: #eef2f7;
+    }
+
+    .contact-box {
+      background: #fafafa;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      margin-top: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #666;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #1f3b5c;
       text-decoration: none;
-      color: #0066cc;
     }
-    nav ul li a:hover {
+
+    a:hover {
       text-decoration: underline;
     }
-    footer {
-      margin-top: 40px;
-      border-top: 1px solid #ccc;
-      padding-top: 10px;
-      font-size: 0.9em;
+
+    /* Sidebar menu */
+    #sidebar {
+      position: fixed;
+      left: 0;
+      top: 400px;
+      width: 200px;
+      background: #14424d;
+      padding-top: 20px;
+      border-radius: 0 12px 12px 0;
+      box-shadow: 3px 0 8px rgba(0,0,0,0.18);
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    #sidebar a {
+      color: white;
+      padding: 14px 24px;
+      font-weight: 500;
+      font-size: 15px;
+      text-decoration: none;
+      border-left: 4px solid transparent;
+      display: block;
+      transition: 0.3s;
+    }
+
+    #sidebar a:hover {
+      background: #1f3d5a;
+      border-left: 4px solid #4da6ff;
     }
   </style>
 </head>
 <body>
 
-  <h1>M. Irfan Uddin</h1>
-
-  <nav>
-    <ul>
-      <li><a href="https://mirfanud.wordpress.com"">Home</a></li>
-    </ul>
-  </nav>
-
-  <section id="home">
-    <h2>About</h2>
-    <p align='justify'>
-      M. Irfan Uddin is affiliated with the Department of Computer Science, Abdul Wali Khan University Mardan (AWKUM), Khyber Pakhtunkhwa, Pakistan. With a solid educational foundation and over two decades of teaching and research experience at renowned academic institutions, he possesses a robust academic and research background across diverse domains of computer science. He is an active member of several esteemed scientific societies, including IEEE, ACM, HiPEAC, CSTA, IAENG, KSS, and Science-i. He has played a leading role in organizing numerous national and international seminars, workshops, and conferences. His research contributions include over 130 research articles published in JCR and Scopus/ISI-indexed journals, as well as national/international conferences, in addition to three authored books published by reputed publishers. He has also published two patents with the United States Patent and Trademark Office. He has served as (PI/Co-PI/Collaborator) in more than 10 nationally/internationally funded research projects. Additionally, he actively contributes as a reviewer, editorial board member, and technical program committee member for several prestigious journals and conferences. His research interests include machine learning, data science, artificial neural networks, deep learning, convolutional neural networks, recurrent neural networks, attention models, reinforcement learning, generative adversarial networks, generative AI, Agentic AI, computer vision, image processing, machine translation, natural language processing, speech recognition, big data analytics, parallel programming, Multi-core, Many-core, and GPUs.
-    </p>
-
-<h2>Research Interest</h2>
-<ul>
-  <li>Generative AI, Agentic AI</li>
-  <li>Machine Learning, Data Science, Artificial Neural Networks, Deep Learning</li>
-  <li>Convolutional Neural Networks, Recurrent Neural Networks, Attention Models</li>
-  <li>Reinforcement Learning, Generative Adversarial Networks, Federated Learning</li>
-  <li>Computer Vision, Image Processing, Machine Translation, Natural Language Processing, Speech Recognition</li>
-  <li>Big Data Analytics</li>
-  <li>Parallel Programming / Multi-core / Many-core / GPUs</li>
-</ul>
-
-<h2>Summary</h2>
-
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%;">
-  <tr>
-    <th style="text-align:left;">Item</th>
-    <th style="text-align:left;">Value</th>
-  </tr>
-
-  <tr>
-    <td>Teaching and Research Experience</td>
-    <td> >20 Years</td>
-  </tr>
-
-  <tr>
-    <td>Accumulative Impact Factor</td>
-    <td> >350</td>
-  </tr>
-
-  <tr>
-    <td>Citations</td>
-    <td> >4000</td>
-  </tr>
-
-  <tr>
-    <td>h-index</td>
-    <td> >36</td>
-  </tr>
-
-  <tr>
-    <td>Number of Published Impact Factor Papers</td>
-    <td> >110</td>
-  </tr>
-
-  <tr>
-    <td>Number of Published Scopus/ISI Indexed Papers</td>
-    <td>7</td>
-  </tr>
-
-  <tr>
-    <td>Number of Published Conference Papers</td>
-    <td>8</td>
-  </tr>
-
-  <tr>
-    <td>Number of Published Books</td>
-    <td>3</td>
-  </tr>
-
-  <tr>
-    <td>Number of Published Patents</td>
-    <td>2</td>
-  </tr>
-
-  <tr>
-    <td>Research Projects (PI/Co-PI/Collaborator)</td>
-    <td> >10</td>
-  </tr>
-
-  <tr>
-    <td>Conferences Organized (National/International)</td>
-    <td> >10</td>
-  </tr>
-
-  <tr>
-    <td>Top 2% Scientist (2025)</td>
-    <td>
-      My name appears in the 2025 Elsevier–Stanford Top 2% Scientist list.<br>
-      <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8" target="_blank">Link</a>
-    </td>
-  </tr>
-
-  <tr>
-    <td>Top 2% Scientist (2024)</td>
-    <td>
-      My name appears in the 2024 Elsevier–Stanford Top 2% Scientist list.<br>
-      <a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7" target="_blank">Link</a>
-    </td>
-  </tr>
-
-</table>
-
-
-<h2>Contact Me</h2>
-
-<div style="
-    border: 1px solid #ddd;
-    padding: 20px;
-    border-radius: 8px;
-    background: #f9f9f9;
-    max-width: 500px;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-">
-  <strong style="font-size: 1.2em;">M. Irfan Uddin</strong><br>
-  Department of Computer Science,<br>
-  Abdul Wali Khan University Mardan (AWKUM)<br>
-  Mardan 23200, KP, Pakistan.<br><br>
-
-  <strong>Email:</strong> 
-  <a href="mailto:irfanuddin@awkum.edu.pk">irfanuddin@awkum.edu.pk</a><br>
-
-  <strong>WhatsApp:</strong> 
-  <a href="https://wa.me/923355764514" target="_blank">+92 335 5764514</a>
+<div id="sidebar">
+  <a href="#">HOME</a>
+  <a href="https://mirfanud.wordpress.com/courses/">COURSES</a>
+  <a href="https://mirfanud.wordpress.com/dvl/">DVL</a>
+  <a href="https://mirfanud.wordpress.com/publications/">PUBLICATIONS</a>
+  <a href="https://mirfanud.wordpress.com/conferences/">ACTIVITIES</a>
 </div>
 
-  </section>
+<header style="margin-left:0;">
+  <img src="profile.jpg" alt="M. Irfan Uddin" style="width:150px;height:150px;border-radius:50%;object-fit:cover;border:3px solid #fff;box-shadow:0 0 5px rgba(0,0,0,0.2);margin-bottom:15px;" />
+  <h1>M. Irfan Uddin</h1>
+  <p>Researcher | Scientist | Academician</p>
+</header>
 
-  <section id="PSB">
-    <h2>Fun Games for my Kid</h2>
-      <a href="https://mirfanud.github.io/psb25/">PSB 2025</a>,
-      <a href="https://mirfanud.github.io/icats25/">ICATS 2025</a>
-  </section>
+<div class="container">
+  <h2>Biography</h2>
+  <p align='justify'>M. Irfan Uddin is affiliated with the Department of Computer Science, Abdul Wali Khan University Mardan (AWKUM), Khyber Pakhtunkhwa, Pakistan. With a solid educational foundation and over two decades of teaching and research experience at renowned academic institutions, he possesses a robust academic and research background across diverse domains of computer science. He is an active member of several esteemed scientific societies, including IEEE, ACM, HiPEAC, CSTA, IAENG, KSS, and Science-i. He has played a leading role in organizing numerous national and international seminars, workshops, and conferences. His research contributions include over 130 research articles published in JCR and Scopus/ISI-indexed journals, as well as national/international conferences, in addition to three authored books published by reputed publishers. He has also published two patents with the United States Patent and Trademark Office. He has served as (PI/Co-PI/Collaborator) in more than 10 nationally/internationally funded research projects. Additionally, he actively contributes as a reviewer, editorial board member, and technical program committee member for several prestigious journals and conferences. His research interests include machine learning, data science, artificial neural networks, deep learning, convolutional neural networks, recurrent neural networks, attention models, reinforcement learning, generative adversarial networks, generative AI, Agentic AI, computer vision, image processing, machine translation, natural language processing, speech recognition, big data analytics, parallel programming, Multi-core, Many-core, and GPUs.</p>
 
-  <footer>
-    <p>
-      Visit the full site on WordPress: 
-      <a href="https://mirfanud.wordpress.com" target="_blank">mirfanud.wordpress.com</a>
-    </p>
-  </footer>
+  <h2>Research Interests</h2>
+  <ul>
+    <li>Generative AI, Agentic AI</li>
+    <li>Machine Learning, Data Science, Artificial Neural Networks, Deep Learning</li>
+    <li>Convolutional Neural Networks, Recurrent Neural Networks, Attention Models</li>
+    <li>Reinforcement Learning, Generative Adversarial Networks, Federated Learning</li>
+    <li>Computer Vision, Image Processing, Machine Translation, NLP, Speech Recognition</li>
+    <li>Big Data Analytics</li>
+    <li>Parallel Programming / Multi-core / Many-core / GPUs</li>
+  </ul>
+
+  <h2>Summary</h2>
+  <table>
+    <tr><th>Item</th><th>Value</th></tr>
+    <tr><td>Teaching and Research Experience</td><td> > 20 Years</td></tr>
+    <tr><td>Accumulative Impact Factor</td><td> > 350</td></tr>
+    <tr><td>Citations</td><td> > 4000</td></tr>
+    <tr><td>h-index</td><td>36</td></tr>
+    <tr><td>Number of Published Impact Factor Papers</td><td>110</td></tr>
+    <tr><td>Number of Published Scopus/ISI Indexed Papers</td><td>7</td></tr>
+    <tr><td>Number of Published Conference Papers</td><td>8</td></tr>
+    <tr><td>Number of Published Books</td><td>3</td></tr>
+    <tr><td>Number of Published Patents</td><td>2</td></tr>
+    <tr><td>Research Projects (PI/Co-PI/Collaborator)</td><td> > 10</td></tr>
+    <tr><td>Conferences Organized (National/International)</td><td> > 10</td></tr>
+    <tr><td>Top 2% Scientist (2025)</td><td><a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/8" target="_blank">Elsevier–Stanford List 2025</a></td></tr>
+    <tr><td>Top 2% Scientist (2024)</td><td><a href="https://elsevier.digitalcommonsdata.com/datasets/btchxktzyw/7" target="_blank">Elsevier–Stanford List 2024</a></td></tr>
+  </table>
+
+  <h2>Contact Me</h2>
+  <div class="contact-box">
+    <strong style="font-size: 1.1em;">M. Irfan Uddin</strong><br>
+    Department of Computer Science,<br>
+    Abdul Wali Khan University Mardan (AWKUM)<br>
+    Mardan 23200, KP, Pakistan.<br><br>
+
+    <strong>Email:</strong> <a href="mailto:irfanuddin@awkum.edu.pk">irfanuddin@awkum.edu.pk</a><br>
+    <strong>WhatsApp:</strong> <a href="https://wa.me/923355764514" target="_blank">+92 335 5764514</a>
+  </div>
+
+</div>
+
+<footer>
+  © 2025 M. Irfan Uddin
+</footer>
 
 </body>
 </html>
-
