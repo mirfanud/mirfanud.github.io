@@ -145,6 +145,42 @@ footer {
     font-size:14px;
     color:#555;
 }
+
+.focal-section{
+    text-align:center;
+}
+
+.section-desc{
+    color:#555;
+    margin-bottom:25px;
+}
+
+.focal-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    gap:20px;
+}
+
+.focal-card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 6px 15px rgba(0,0,0,0.08);
+    transition:transform 0.3s ease;
+}
+
+.focal-card:hover{
+    transform:translateY(-5px);
+}
+
+.focal-card h3{
+    color:#0a3d62;
+    margin-bottom:10px;
+}
+
+.focal-card p{
+    margin:5px 0;
+}
 </style>
 </head>
 
@@ -210,6 +246,8 @@ footer {
     <p>A leading public-sector university focused on education, research, and innovation.</p>
 </section>
 
+
+
 <section>
     <h2>Workshop Highlights</h2>
     <ul>
@@ -267,6 +305,33 @@ footer {
         <p><strong>Prof. Dr. M. Irfan Uddin</strong></p>
         <p>University of Swabi</p>
         <p>Email: <a href="mailto:irfanuddin@uoswabi.edu.pk">irfanuddin@uoswabi.edu.pk</a></p>
+    </div>
+
+    <h2>Regional Focal Persons</h2>
+    <p class="section-desc">
+        For institutional coordination and participation, please contact the following focal persons.
+    </p>
+
+    <div class="focal-grid">
+
+        <div class="focal-card">
+            <h3>KUST</h3>
+            <p>Dr. Muhammad Adnan</p>
+            <p>Dr. Ilyas Ahmad</p>
+            <p>Dr. Sanaullah Khan</p>
+        </div>
+
+        <div class="focal-card">
+            <h3>FATA University</h3>
+            <p>Mr. Muhammad Danyal</p>
+            <p>Mr. Sadiq Shah</p>
+        </div>
+
+        <div class="focal-card">
+            <h3>University of Swabi</h3>
+            <p>Mr. Ali Muhammad</p>
+        </div>
+
     </div>
 </section>
 
