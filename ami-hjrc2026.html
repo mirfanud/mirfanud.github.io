@@ -116,6 +116,35 @@ footer {
     margin-bottom: 15px;
     font-size: 15px;
 }
+
+.flyer-section{
+    text-align:center;
+}
+
+.flyer-container{
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+}
+
+.flyer-image{
+    width:320px;
+    max-width:90%;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+    transition:transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.flyer-image:hover{
+    transform:scale(1.05);
+    box-shadow:0 15px 35px rgba(0,0,0,0.25);
+}
+
+.flyer-note{
+    margin-top:15px;
+    font-size:14px;
+    color:#555;
+}
 </style>
 </head>
 
@@ -156,6 +185,18 @@ footer {
     </ul>
 </section>
 
+<section class="flyer-section">
+    <h2>Event Flyer</h2>
+
+    <div class="flyer-container">
+        <img src="images/flyer.png" alt="AMI-HJRC 2026 Flyer" class="flyer-image">
+    </div>
+
+    <p class="flyer-note">
+        Download or share the official flyer for <strong>AMI-HJRC 2026</strong>.
+    </p>
+</section>
+    
 <section>
     <h2>Event Details</h2>
     <p><strong>Venue:</strong> Abdul Wali Khan University Mardan</p>
