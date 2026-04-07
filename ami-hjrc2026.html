@@ -183,6 +183,31 @@ footer {
 .focal-card p{
     margin:5px 0;
 }
+
+.tagline{
+    font-size: 1.05em;
+    line-height: 1.6;
+    letter-spacing: 0.3px;
+}
+
+.acronym{
+    font-size: 1.35em;
+    font-weight: 600;
+    color: #0a3d62; /* matches your theme */
+    position: relative;
+}
+
+/* subtle underline accent */
+.acronym::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #f39c12;
+    border-radius: 2px;
+}
 </style>
 </head>
 
@@ -190,7 +215,15 @@ footer {
 
 <header>
     <h1>AMI-HJRC 2026</h1>
-    <p>AI Meets Imagination with a Hands-on Journey in Robotics & Code</p>
+    <p class="tagline">
+        <span class="acronym">A</span>I 
+        <span class="acronym">M</span>eets 
+        <span class="acronym">I</span>magination with a 
+        <span class="acronym">H</span>ands-on 
+        <span class="acronym">J</span>ourney in 
+        <span class="acronym">R</span>obotics & 
+        <span class="acronym">C</span>ode
+    </p>
     <p><strong>15 April 2026 (Wednesday) | Mardan, Pakistan</strong></p>
 </header>
 
